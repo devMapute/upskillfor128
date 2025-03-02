@@ -49,7 +49,7 @@ export default function UsersClient() {
     <div>
       <h1>Users</h1>
       <ul className="space-y-4 p-4">
-        {users.map((user) => (
+        {users.map((user: User) => (
           <li
             key={user.id}
             className="p-4 bg-white shadow-md rounded-md text-gray-700"
