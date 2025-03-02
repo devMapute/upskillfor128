@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React from "react";
+import AuthButton from "./auth-button";
 
 export const Navigation = () => {
   const pathname = usePathname();
@@ -37,6 +38,7 @@ export const Navigation = () => {
       >
         About
       </Link>
+      <AuthButton/>
     </nav>
   );
 };

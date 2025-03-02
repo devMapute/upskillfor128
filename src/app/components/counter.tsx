@@ -7,8 +7,8 @@ export const Counter = () => {
 
   return (
     <div>
-      <p>Bonk Counter: {count}</p>
-      <button onClick={() => setCount(count + 1)}>Bonk!</button>
+      <p className="pb-2">Bonk Counter: {count}</p>
+      <button className="rounded bg-white text-gray-700 px-5 py-2" onClick={() => setCount(count + 1)}>Bonk!</button>
     </div>
   );
 };
