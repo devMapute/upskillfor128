@@ -25,6 +25,13 @@ export const Navigation = () => {
         Users
       </Link>
       <Link
+        href="/mock-users"
+        className={pathname === "/mock-users" ? "font-extrabold" : ""}
+      >
+        {" "}
+        Mock Users
+      </Link>
+      <Link
         href="/about"
         className={pathname === "/about" ? "font-extrabold" : ""}
       >
