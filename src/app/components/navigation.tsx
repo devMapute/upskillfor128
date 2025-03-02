@@ -18,6 +18,13 @@ export const Navigation = () => {
         Products
       </Link>
       <Link
+        href="/users-client"
+        className={pathname === "/users-client" ? "font-extrabold" : ""}
+      >
+        {" "}
+        Users
+      </Link>
+      <Link
         href="/about"
         className={pathname === "/about" ? "font-extrabold" : ""}
       >
